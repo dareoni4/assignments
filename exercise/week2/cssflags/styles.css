@@ -1,0 +1,242 @@
+.flag{
+    border: 1px solid black;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+
+#france {
+    display: inline-block;
+    height: 300px;
+    width: 35%;
+    background-color: blue;
+}
+#france2{
+    display: inline-block;
+
+    height: 300px;
+    width: 30%;
+    background-color: white;
+}
+#france3{
+    display: inline-block;
+
+    height: 300px;
+    width: 32%;
+    background-color: red;
+}
+
+#germany{
+    /* top: 20px */
+    /* display: inline-block; */
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+#germany1{
+    /* display: inline-block; */
+    width: 100%;
+    height: 100px;
+    background-color: rgb(228, 17, 17);
+}
+#germany2{
+    /* display: inline-block; */
+    width: 100%;
+    height: 100px;
+    background-color: rgb(209, 206, 47);
+}
+
+
+#mad{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: green;
+}
+
+#mad2{
+   position: relative;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    height: 150px;
+    background-color: red
+}
+
+#mad3 {
+    position:relative;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    bottom: 300px;
+}
+
+#swiss{
+position: relative;
+   background: red;
+   width: 100%;
+   height: 300px;
+}
+#swiss2{
+    position: absolute;
+    background-color: white;
+    height: 45px;
+    width: 50%;
+   top: 40%;
+   left: 26%;
+}
+
+#swiss3{
+    position: absolute;
+    background-color: white;
+    height: 92px;
+    width: 67px;
+    top: 40px;
+    left: 85px;
+}
+#swiss4{
+position: absolute;
+    background-color: white;
+    
+   
+    height: 86px;
+    width: 72px;
+    top: -86px;
+    left: 83px;
+}
+
+#swed{
+    position: relative;
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+}
+#swed2{
+    position: absolute;
+    width: 100%;
+    background-color:yellow;
+    height: 69px;
+    top: 107px;
+}
+#swed3{
+    position: absolute;
+    background-color: yellow;
+    height: 300px;
+    width: 69px;
+    left: 125px;
+}
+
+#gamb{
+    position: relative;
+    height: 100px;
+    width: 100%x;
+    background-color: red;
+}
+#gamb1{
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(43, 11, 221);
+    bottom: 92px;
+    top: 109px;
+}
+#gamb2{
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    background-color: green;
+    bottom: 39px;
+    top: 209px;
+}
+#tonga{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+#tonga2{
+    background-color: white;
+    width: 45%;
+    height: 132px;
+}
+#tonga3{
+    position: relative;
+    background-color: red;
+    width: 10%;
+    height: 100px;
+    top: 13px;
+    right: -91px;
+}
+#tonga4{
+    position: relative;
+    background-color: red;
+    width: 46%;
+    height: 23px;
+    top: -50px;
+    right: -52px;
+}
+
+#jap1{
+    position: relative;
+    width: 175px;
+    height: 175px;
+    background: red;
+    border-radius: 50%;
+    top: 59px;
+    bottom: 17px;
+    right: -152px;
+}
+
+
+   
+#greece{
+    position: relative;
+    background-color: white
+    width: 100%;
+    height: 300px;
+}
+
+#grec{
+    position: absolute;
+    width: 100%;
+    background-color:blue;
+    height: 43px;
+    
+}
+
+#grec1{
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+    height: 43px;
+    bottom: 86px;
+    top: 84px;
+}
+
+#grec2{
+    position: absolute;
+    width: 100%;
+    background-color:  blue;
+    bottom: 26px;
+    top: 85px;
+}
+
+#grec3{
+    position: absolute;
+    width: 100%;
+    background-color:  blue;
+    bottom: 26px;
+    top: 88px;
+    height: 43px;
+}
+#grec4{
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+    bottom: 26px;
+    top: -88px;
+    height: 43px;
+}
+
+
+

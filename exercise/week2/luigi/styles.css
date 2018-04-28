@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+
+}
+
+.box{
+    flex-direction: row;  
+    display: flex;
+    align-items: center;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+
+}
+#frame{
+background-color: red;
+height: 250px;
+    width: 100%;
+}
+
+#about{
+    background-color: white;
+    height: 175px;
+    width:100%;
+}
+
+footer{
+    height: 75px;
+    width: 100%;
+    background-color: yellow;
+}
+
+#about p {
+    text-align: center;
+}
+#frame .dot{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: white;
+}
+

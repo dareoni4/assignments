@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-size: 65px;
+}
+
+p {
+    display: inline-block;
+    
+    line-height: 1.6;
+    border: 10px; 
+}
+
+div {
+    display: inline block;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.story {
+    display: inline-block;
+    width: 35%;
+    border: solid;
+    border-color: grey;
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    position: fixed;
+    top: 200px;
+    margin: 10px;
+}

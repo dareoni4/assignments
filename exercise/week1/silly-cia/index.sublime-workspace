@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"document"
+			],
+			[
+				"hu",
+				"hulkSmash"
+			],
+			[
+				"re",
+				"reFund"
+			],
+			[
+				"roun",
+				"roundScore"
+			],
+			[
+				"scor",
+				"scoreBill"
+			],
+			[
+				"score",
+				"scoreBill"
+			],
+			[
+				"age",
+				"ageBill"
+			],
+			[
+				"Age",
+				"ageBart"
+			],
+			[
+				"hig",
+				"heightBart"
+			],
+			[
+				"h",
+				"heightBill"
+			],
+			[
+				"print",
+				"printFullAge"
+			],
+			[
+				"prin",
+				"printFullAge"
+			],
+			[
+				"fu",
+				"fullAges"
+			],
+			[
+				"full",
+				"fullAges"
+			],
+			[
+				"last",
+				"lastName"
+			],
+			[
+				"y",
+				"yearsUntilRetirement"
+			],
+			[
+				"years",
+				"yearsUntilRetirement"
+			],
+			[
+				"ca",
+				"calculateAge"
+			],
+			[
+				"year",
+				"yearOfBirth"
+			],
+			[
+				"sco",
+				"scoreMike"
+			],
+			[
+				"sc",
+				"scoreMary"
+			],
+			[
+				"scoreM",
+				"scoreMary"
+			],
+			[
+				"s",
+				"scoreJohn"
+			],
+			[
+				"height",
+				"heightFriend"
+			],
+			[
+				"new",
+				"newAside"
+			],
+			[
+				"r",
+				"Rivendell"
+			],
+			[
+				"p",
+				"Peregrin"
+			],
+			[
+				"me",
+				"Meriadoc"
+			],
+			[
+				"the",
+				"theshire"
+			],
+			[
+				"star",
+				"starWars"
+			],
+			[
+				"starw",
+				"starWarsCharacters"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"we",
+				"wesleyLi"
+			],
+			[
+				"appen",
+				"appendChild"
+			],
+			[
+				"wh",
+				"whoAreYou"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cl",
+				"Clicker"
+			],
+			[
+				"click",
+				"clickCount"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"gen",
+				"generateCar"
+			],
+			[
+				"const",
+				"constructor"
+			],
+			[
+				"eye",
+				"eyeColor"
+			],
+			[
+				"som",
+				"someProperty"
+			],
+			[
+				"pr",
+				"property"
+			],
+			[
+				"sort",
+				"sortedWordArray"
+			],
+			[
+				"rad",
+				"radiuse"
+			],
+			[
+				"movie",
+				"movieKeys"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dareoni/dev/assignments/exercise/silly-cia/index.html",
+		"/Users/dareoni/Documents/main.js",
+		"/Users/dareoni/Desktop/v school project /main.js",
+		"/Users/dareoni/Desktop/v school project /index.html",
+		"/Users/dareoni/fluff-hounds/12_05_2017_Tue/lab_loops_practice/index.html",
+		"/Users/dareoni/fluff-hounds/12_12_2017/index.html",
+		"/Users/dareoni/Downloads/- (2).js",
+		"/Users/dareoni/Downloads/4-DOM-Pig-Game/app.js",
+		"/Users/dareoni/Desktop/2-JS-Basics 2/script.js",
+		"/Users/dareoni/Desktop/2-JS-Basics-Final/script.js",
+		"/Users/dareoni/Desktop/2-JS-Basics/index.html",
+		"/Users/dareoni/Downloads/3-How-JS-Works-Final/script.js",
+		"/Users/dareoni/Desktop/2-JS-Basics 2/index.html",
+		"/Users/dareoni/fluff-hounds/12_05_2017_Tue/lab_loops_practice/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_18_2017_VanillaJS_Space_Battle/lab_LOTR/wdi-10-hw6-vanilla-LOTR/index.html",
+		"/Users/dareoni/fluff-hounds/12_18_2017_VanillaJS_Space_Battle/event_listeners/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_18_2017_VanillaJS_Space_Battle/event_listeners/index.html",
+		"/Users/dareoni/fluff-hounds/12_18_2017_VanillaJS_Space_Battle/DOM/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_18_2017_VanillaJS_Space_Battle/lab_DOM/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_18_2017_VanillaJS_Space_Battle/lab_LOTR/wdi-10-hw6-vanilla-LOTR/scripts/fellowship.js",
+		"/Users/dareoni/fluff-hounds/12_18_2017_VanillaJS_Space_Battle/lab_LOTR/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_18_2017_VanillaJS_Space_Battle/DOM/index.html",
+		"/Users/dareoni/fluff-hounds/wdi_10_hw_5/js/app.js",
+		"/Users/dareoni/fluff-hounds/wdi_10_hw_5/css/style.css",
+		"/Users/dareoni/fluff-hounds/wdi_10_hw_5/index.html",
+		"/Users/dareoni/fluff-hounds/12_15_2017_classes/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_15_2017_classes/lab/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_13_2017_wed_callbacks_etc_lesson/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_13_2017_wed_callbacks_etc_lesson/wdi-10-lab-callbacks-and-ridiculous-data-types/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_13_2017_wed_callbacks_etc_lesson/wdi-10-lab-callbacks-and-ridiculous-data-types/README.md",
+		"/Users/dareoni/fluff-hounds/12_05_2017_Tue/homework_DO_NOT_USE/app.js",
+		"/Users/dareoni/fluff-hounds/12_05_2017_Tue/homework/homework-12-05-loops-terminal-etc/index.html",
+		"/Users/dareoni/fluff-hounds/12_04_17_terminal_loops_variables/file_structure_reps/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_13_2017_wed_callbacks_etc_lesson/wdi-10-lab-callbacks-and-ridiculous-data-types/index.html",
+		"/Users/dareoni/fluff-hounds/homework_12_12/css/style.css",
+		"/Users/dareoni/fluff-hounds/12_12_2017/css/style.css",
+		"/Users/dareoni/fluff-hounds/12_12_2017/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_11_2017_objects/wdi-10-mockup-lab-12-11/index.html",
+		"/Users/dareoni/fluff-hounds/12_11_2017_objects/wdi-10-mockup-lab-12-11/css/style.css",
+		"/Users/dareoni/fluff-hounds/wdi-10-quiz-1-loops-arrays-functions/index.html",
+		"/Users/dareoni/fluff-hounds/wdi-10-quiz-1-loops-arrays-functions/css/style.css",
+		"/Users/dareoni/fluff-hounds/12_11_2017_objects/lab_objects/js/app.js",
+		"/Users/dareoni/fluff-hounds/12_11_2017_objects/object_lesson/index.html",
+		"/Users/dareoni/fluff-hounds/12_11_2017_objects/object_lesson/css/style.css",
+		"/Users/dareoni/fluff-hounds/12_11_2017_objects/object_lesson/js/app.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+    height: 450px;
+    width: 350px;
+}
+
+form{
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    
+    
+}
+h1{
+    text-align: center;
+    background-color: blue;
+    border: black solid 2px;
+}
+}
+#sub{
+   margin: auto;
+   text-align: center;
+}
+
+div{
+    background-color: lightgray
+}
