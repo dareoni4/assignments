@@ -28,6 +28,10 @@ function multiply(event){
     document.getElementById("result").innerText = parseInt(number1) * parseInt(number2)
 }
 
+function multiply(event){
+    event.preventDefault
+}
+
 document.add.addEventListener('submit', add)
 function add(event){
     event.preventDefault();

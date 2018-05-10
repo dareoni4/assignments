@@ -1,0 +1,68 @@
+#box1{
+width: 200px;
+height: 200px;
+background-color: aqua;
+margin-bottom: 10px;
+box-shadow: 5px 6px;
+-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+
+}
+#box1:hover {
+    width: 500px;
+} 
+
+
+
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(5, 58, 230);
+    margin-bottom: 10px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+#box2:hover{
+    -webkit-transform: rotate(145deg); /* Safari */
+    transform: rotate(145deg);
+}
+
+#box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(233, 47, 47);
+    margin-bottom: 10px;
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+    0%   {background-color: blue;}
+    25%  {background-color: green;}
+    50%  {background-color: yellow;}
+    100% {background-color: orange;}
+}
+#box4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(123, 30, 211);
+    margin-bottom: 10px;
+
+}
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+#box5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(62, 238, 70);
+    margin-bottom: 10px;
+    box-shadow: 10px 10px orangered 
+}
+/*  */
+ 

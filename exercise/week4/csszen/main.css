@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+
+body html{
+    font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 200px 600px 400px 350px 200px 100px;
+}
+
+
+.header {
+    grid-column: 1 / -1;
+    background-size: cover;
+    background-image: url(huntington.jpg)
+
+}
+
+.menu {
+    padding: 15px;
+    grid-column: 1/2;
+    background: white;
+    background-image: url()
+}
+
+.content {
+    background: #e6ede9;
+    grid-column: 2 / -1;
+}
+
+.footer {
+    background: #e8f0e9;
+    grid-column: 1/ -2;
+}
+.box5{
+    background-color:#e8f0e9;
+    grid-column: 2/-1;
+}
+.box6{
+    background-color: white;
+    grid-column: 1/2;
+}
+.box7{
+    background-color: #e8f0e9;
+    grid-column: -1/2;
+}
+.box8{
+    background-size: cover;
+    grid-column: 1/3;
+    background-image: url(koi.jpg)
+}
+.box9{
+    background-color: #1b4347;
+    grid-column: 1/3
+}
+
+
+#title{
+margin: 70px auto;
+margin-left: 90px;
+margin-right: 70px;
+text-align: center;
+ width: 500px;
+font-family: 'Julius Sans One', sans-serif;
+color: white;
+}
+
+
+

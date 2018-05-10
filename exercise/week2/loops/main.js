@@ -21,9 +21,19 @@ function findChar(str, char){
     }
 }
 
+function findChar(str, char){
+    var found = false;
+    for (var i = 0; i < str.length; i++){
+        if(str[i] === char){
+            found = true
+        }
+    }
+}
+
+
 function find42(arr){
     var found = false;
-    for( var i = 0; i < arr.length && !found; i++){
+    for(var i = 0; i < arr.length && !found; i++){
         if (arr[i] === 42){
             found = true
         }

@@ -1,13 +1,13 @@
-// function capitlaize (str){
-//     stringArray = str.split("");
-//     console.log(stringArray);
-//     for(var i = 0; i < stringArray.length; i++){
-//         stringArray[i] = stringArray[i].slice(0, 1).toUpperCase().concat(stringArray[i].slice(1))
-//     }
-//     return stringArray.join("")
+function capitlaize (str){
+    stringArray = str.split("");
+    console.log(stringArray);
+    for(var i = 0; i < stringArray.length; i++){
+        stringArray[i] = stringArray[i].slice(0, 1).toUpperCase().concat(stringArray[i].slice(1))
+    }
+    return stringArray.join("")
     
-// }
-//     console.log(capitalize("this is our string to capitalize all the first letters"))
+}
+    console.log(capitalize("this is our string to capitalize all the first letters"))
 
 // function moveLetter (word){
 //     firstLetter = word.slice(0, 1)
@@ -25,3 +25,10 @@
 // }
 // console.log(connect("dare", "oni"))
 
+// function connect (word, word3){
+//     return word.toLowerCase() + ' ' + word3.toUpperCase();
+//     for(var j = 0; i < bothWords.length; i++){
+//         bothWords[i] = bothWords[i].split(',');
+//     }
+// }
+// console.log(connect('james', 'bart'))

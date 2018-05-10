@@ -1,0 +1,86 @@
+{
+    "appetizer":[
+        {
+             "appetizer1":"chicken",
+             "price": "10",
+             "description":"meaty"
+            
+        },
+        {
+            "appetizer2":"crab cakes",
+            "price": "10",
+            "description":"delish"
+        },
+        {
+            "appetizer3": "clam chowder",
+            "price": "12",
+            "description": "salty"
+        }
+    ],
+    "coldSandwiches":[
+        {
+            "coldSandwich1":"turkey sandwich",
+            "indgredients":"turkey lettuce tomatoes onions"
+        },
+        {
+            "coldSandwich2":"ham and bacon sandwich",
+            "indgredients":"ham bacon, cheese lettuce"
+        },
+        {
+            "coldSandwich3":"roast beef",
+            "indgredients":"roast beef turkey lettuce tomatoes"
+        }
+        
+    ],
+    "Hotsandwiches":[
+    {
+        "hotSandwiches1":"The BA Patty Melt",
+        "description":"fattening",
+        "ingredients":"bacon lettuce cheese"
+    
+    },
+    {
+         "hotSandwiches2":"pork sandwich",
+        "description":"unhealthy",
+        "ingredients":"pork lettuce cheese"
+    },
+    {
+        "hotSandwiches3":"grilled cheese sandwich",
+        "description":"cheesy",
+        "ingredients":"extra cheese"
+    }
+    ],
+    "desserts":[
+       {
+           "dessert1":"strawberry ice cream",
+            "description":"sweet strawberry",
+            
+       },
+       {
+           "dessert2":"blue cake",
+           "description":"blue raspberry"
+       },
+       {
+           "dessert3":"apple cider",
+           "description":"appley taste"
+       }
+    
+    ],
+    "drinks":[
+        {
+        "drink":"coke",
+        "description":"soda"
+        
+        },
+        {
+            "drink2":"beer",
+            "description":"alcohol"
+        },
+        {
+            "drink3":"pina colada",
+            "description":"sweet alcohol"
+        }
+
+    ]
+
+}
