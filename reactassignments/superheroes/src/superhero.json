@@ -1,0 +1,19 @@
+{
+    "superHeroes": [
+        {
+            "name": "Deadpool",
+            "imgUrl": "https://www.sideshowtoy.com/wp-content/uploads/2016/01/marvel-deadpool-sixth-scale-hot-toys-feature-902628.jpg",
+            "catchPhrase": "Who's kitty litter did I just shit in?"
+        },
+        {
+            "name": "Iron Man",
+            "imgUrl": "http://harvardpolitics.com/blog/wp-content/uploads/2015/06/iron-man1.jpg",
+            "catchPhrase": "I'm Iron Man!!"
+        },
+        {
+            "name":"Superman",
+            "imgUrl": "https://www.maxim.com/entertainment/nicolas-cage-superman-2018-3",
+            "catchPhrase": "it means hope"
+        }
+    ]
+}

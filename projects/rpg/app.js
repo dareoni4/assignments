@@ -210,10 +210,11 @@ var journey = function() {
 		var action = readline.question('What do you want to do?, enter "r" to run or "a" to attack: ').toLowerCase();
 		var userAttackPower = Math.floor(Math.random() * (50 - 25 + 1) + 25);
 
-        
+       
 		switch(action) {
 			case 'r':
-				player.userIsActive = false;
+                player.userIsActive = false;
+                player.userHp -= 3
 				console.log('your a coward you know ' +  enemy + '\n your a loser.');
                 console.log(`               ░░░░░░░░░░░█████████████
                                             ░░░░░░░░░███░███░░░░░░██
@@ -236,6 +237,7 @@ var journey = function() {
                                             ░░░░░░░░░░░░░░░░░░██░██
                                             ░░░░░░░░░░░░░░░░░░░███
                                                                     `)
+                                                                         
 			case 'a':
 				player.enemyHp -= userAttackPower;
 				console.log('You just attacked ' + enemy + ' for ' + userAttackPower + ' attack power');
@@ -244,8 +246,14 @@ var journey = function() {
 				console.log('Please enter a valid key');
 		}
 
-	};
+    };
 
+
+
+
+
+
+    
 	this.enemyAction = function() {
 		if(player.userIsActive === true && player.enemyHp > 0) {
 			var enemyAttackPower = Math.floor(Math.random() * (50 - 25 + 1) + 25);
@@ -256,7 +264,7 @@ var journey = function() {
 				player.userIsActive = false;
                 console.log(enemy + ' has killed ' + player.user + '\nyou have just died the evil wizard will rule the land');
                 console.log('            ');
-                console.log(`                                   _________uu$$$$$$$$$$$$$$$$$uu__________
+                console.log(`                                       _________uu$$$$$$$$$$$$$$$$$uu__________
                                 _________u$$$$$$$$$$$$$$$$$$$$$u_________
                                 ________u$$$$$$$$$$$$$$$$$$$$$$$u________
                                 _______u$$$$$$$$$$$$$$$$$$$$$$$$$u_______
@@ -288,7 +296,8 @@ var journey = function() {
 			player.enemyIsActive = false;
             player.enemyCount++;
             player.userHp++;
-			console.log(player.user + ' has killed ' + enemy + 'and has lost an item');
+            console.log(player.user + ' has killed ' + enemy + 'and has lost an item');
+            console.log(player.user + " health is " + player.userHp)
 		}
 	};
 
@@ -306,20 +315,33 @@ var journey = function() {
 		}
 	};
 
+       function print(){
+           player.userHp++;
+           console.log('your health is  ' + player.userHp)
+       }
+
+
 	this.initialize = function() {
 		player.enemyIsActive = true;
-        var walk = readline.keyIn('Press w to walk');
-        switch(walk){
+        
+            var walkOrPrint = readline.keyIn('Press w to walk or p for print inventory ');
+        switch(walkOrPrint){
             case 'w':
-            player.userIsActive = true
-            console.log('keep walking')
+                player.userIsActive = true
+                console.log('keep walking')
+                player.enemyAction()
+            player.processAttack()                
+                
+            case 'p':
+                console.log('your inventory is as included ' + items + ' and your health is ' + player.userHp)
+        
+        
         }
-		anyEnemy();
-        console.log('Walking down the road ');
-        console.log('           ')
-        console.log('wow a ' + enemy + ' has just appeared');
-        console.log('          ')
-		player.processAttack();
+       
+            
+		
+        
+
 
 		while(player.enemyIsActive === false && player.enemyCount <= enemies.length) {
             console.log('blam');
@@ -332,8 +354,9 @@ var journey = function() {
             console.log('wow a ' + enemy + ' has just appeared');
             console.log(`             `)
 			player.restoreEnemy();
-			player.processAttack();
-		
+            player.processAttack();
+            player.userAction();
+            
 
 		if (player.enemyIsActive === false) {
             console.log(player.user + ' a true warrior of the realm');
@@ -378,11 +401,12 @@ var journey = function() {
                     |  | |
                         \ |/
                         \/
-`)
+`           )
         }
+    
     }
-	};
-	
+
+}
 	this.initialize();
 };
 

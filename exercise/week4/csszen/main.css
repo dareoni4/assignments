@@ -1,77 +1,71 @@
-@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
-
-
-body html{
-    font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753; 
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
-	margin: 0; 
-	padding: 0;
-}
 .container {
     height: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 200px 600px 400px 350px 200px 100px;
+    grid-gap: 3px;
+    grid-template-columns: 3fr 1fr;
+    /* grid-template-rows: 200px auto 200px; */
+    
 }
-
-
+#headerIMG2{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
 .header {
-    grid-column: 1 / -1;
+    height: 300px;
+   grid-column: 1/-1;
     background-size: cover;
     background-image: url(huntington.jpg)
-
 }
 
 .menu {
-    padding: 15px;
-    grid-column: 1/2;
-    background: white;
-    background-image: url()
+    grid-column: 1;
+    padding: 20px;
+    height: 500px;
 }
 
 .content {
-    background: #e6ede9;
-    grid-column: 2 / -1;
+    grid-column: 2;
+    background-color: #e5ede8;
+   
 }
-
+.content2{
+    grid-column: 1;
+    background-color: #8abc9f80;
+    padding: 20px;
+    height: 500px;
+}
 .footer {
-    background: #e8f0e9;
-    grid-column: 1/ -2;
+    height: 300px;
+    background-image: url(koi.jpg);
+    background-size:cover;
+    grid-column: 1/-1;
 }
-.box5{
-    background-color:#e8f0e9;
-    grid-column: 2/-1;
-}
-.box6{
-    background-color: white;
-    grid-column: 1/2;
-}
-.box7{
-    background-color: #e8f0e9;
-    grid-column: -1/2;
-}
-.box8{
-    background-size: cover;
-    grid-column: 1/3;
-    background-image: url(koi.jpg)
-}
-.box9{
-    background-color: #1b4347;
-    grid-column: 1/3
+.bottom{
+grid-column: 2;
+background-color: #e5ede8;
 }
 
-
-#title{
-margin: 70px auto;
-margin-left: 90px;
-margin-right: 70px;
-text-align: center;
- width: 500px;
-font-family: 'Julius Sans One', sans-serif;
-color: white;
+.inbox {
+grid-column: 1;
 }
 
+.inbox2{
+grid-column: 2;
+}
 
+.footer2{
+    grid-column: 1/-1;
+    padding: 3em 10%;
+    color: #fff;
+    background: #134347;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
 
+.css{
+    text-align:  center;
+    color: white;
+}
