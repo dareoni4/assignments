@@ -1,0 +1,21 @@
+img{
+height: 400px;
+width: 450px;
+}
+
+div{
+    display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 500px);
+                grid-gap: 5px;
+}
+body{
+    background-color: crimson
+}
+
+h1{
+    background: blue;
+    color: white;
+    height: 100px;
+    
+}

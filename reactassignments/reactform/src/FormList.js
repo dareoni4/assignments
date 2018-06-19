@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Formlist(props){
-    const mappedList = prop.names.map((name, i) => {
+    const mappedList = props.names.map((name, i) => {
         return (
             <li key={name + '-' + i}> {name}</li>
         )
@@ -22,4 +22,4 @@ function Formlist(props){
 }
 
 
-export default FormList;
+export default Formlist;

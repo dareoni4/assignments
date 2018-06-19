@@ -38,8 +38,8 @@ render(){
   return(
     <div>
       <Counter count=
-      {this.state.clickCounter} add=
-      {this.addCount}
+      {this.state.clickCounter} 
+      add={this.addCount}
       subtract={this.subCount}
       />
       </div>

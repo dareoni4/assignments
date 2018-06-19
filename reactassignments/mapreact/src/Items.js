@@ -4,7 +4,7 @@ function Items() {
     return (
         <div>
         <ul>
-            {words.map(item => <li>{item}</li>)}
+            {word.map(items => <li>{items}</li>)}
         </ul>
     </div>
     )

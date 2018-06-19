@@ -1,0 +1,106 @@
+
+a{
+    display: inline;
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(89, 99, 236);
+    margin: 10px;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+a:hover{
+    background-color: aqua;
+}
+
+.nav{
+    text-align: center;
+    margin: 20px;
+    background: white;
+    height: 60px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    padding: 10px;
+    border: solid black;
+    
+}
+
+.head{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+.box{
+    background: white;
+    border: 2px solid black;
+    margin: 3px
+}
+.form{
+    width:  500px;
+    height: 400px;
+    margin: auto;
+    background-color: lightgrey;
+    padding: 30px;
+    margin-top: 90px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+input{
+    width: 350px;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+   
+}
+
+
+.title{
+    margin-top: 2px;
+    text-align: center;
+}
+
+.fill{
+    border: 1px solid black;
+    padding: 30px;
+}
+button{
+    float: right;
+    margin-top: 10px;
+  padding:10px;
+width: 100px;
+
+}
+.search{
+    margin: 10px;
+}
+.Time{
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    font-size: 60px;
+}
+
+@media screen and (max-width: 700px){
+    .Time, .info{
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: crimson;
+    }
+    body{
+        background-color: green;
+    }
+}

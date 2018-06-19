@@ -1,23 +1,13 @@
 import React from 'react';
+import NameForm from './NameForm';
 
 
-class App extends React.Component {
-    constructor(){
-        super();
-        this.state ={
-
-        }
-    }
-
-    render(){
-        return(
-            <div>
-                <h1>hello Moto
-
-                </h1>
-            </div>
-        )
-    }
+const App = () => {
+    return (
+        <div>
+           <NameForm />
+        </div>
+    )
 }
 
 export default App;

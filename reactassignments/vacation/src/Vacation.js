@@ -7,6 +7,7 @@ const Vacation = (props) => {
         <VacationSpots place = {vacationSpots.place} 
         price = {vacationSpots.price} 
         timeToGo = {vacationSpots.timeToGo}
+        style = {vacationSpots.style}
         />
     )
 })

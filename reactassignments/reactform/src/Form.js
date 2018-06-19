@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Form(props){
+    return(
     <form onSubmit= {props.handleSubmit}>
     input a name:
     <input 
@@ -10,6 +11,7 @@ function Form(props){
     />
     <button>Submit</button>
     </form>
+    )
 }
 
 export default Form;
